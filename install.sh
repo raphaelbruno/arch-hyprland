@@ -90,5 +90,5 @@ sudo systemctl start bluetooth
 #-----------------------------------
 # Move Files
 #-----------------------------------
-mv -f home/.config ~/
+cp -R home/. ~/
 sudo cp -R etc/greetd /etc/
