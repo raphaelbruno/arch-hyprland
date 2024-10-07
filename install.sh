@@ -7,7 +7,7 @@
 sudo pacman -Sy
 
 # Base
-sudo pacman -S curl wget jq nano qt6-multimedia-ffmpeg unzip
+sudo pacman -S curl wget jq nano qt6-multimedia-ffmpeg p7zip unrar unzip xz zip bzip2 gzip tar 
 
 # Development
 sudo pacman -S base-devel git python cargo nodejs npm
