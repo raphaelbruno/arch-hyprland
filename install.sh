@@ -4,6 +4,7 @@
 # Dependencies
 #-----------------------------------
 
+# Update
 sudo pacman -Sy
 
 # Base
@@ -22,7 +23,7 @@ sudo pacman -S greetd greetd-regreet pamixer playerctl brightnessctl libnotify p
 sudo pacman -S hyprland hyprpicker waybar rofi swww swaylock
 
 # Hyprland Utilities
-sudo pacman -S alacritty dolphin wl-clipboard dunst btop network-manager-applet bluez
+sudo pacman -S alacritty thunar wl-clipboard dunst network-manager-applet bluez
 
 # Fonts
 sudo pacman -S ttf-firacode-nerd ttf-font-awesome
@@ -40,13 +41,7 @@ rm -rf ~/.config/nvim/.git
 sudo pacman -S btop nvtop cmatrix fastfetch
 
 # Applications (GUI)
-sudo pacman -S chromium code inkscape blender freecad
-
-#-----------------------------------
-# Gimp + Phptoshop Theme
-#-----------------------------------
-sudo pacman -S gimp
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/doctormo/GimpPs/master/tools/install.sh)"
+sudo pacman -S chromium code gimp inkscape blender freecad
 
 #-----------------------------------
 # Oh-my-posh
