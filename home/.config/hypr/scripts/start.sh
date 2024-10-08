@@ -2,12 +2,15 @@
 
 swww init &
 
+sleep 1
+sh ~/.config/hypr/scripts/lock-screen
+swayidle -w timeout 300 "~/.config/hypr/scripts/lock-screen" &
+
 dunst &
 systemctl --user start plasma-polkit-agent &
 
-sleep 2
 waybar &
 
-sleep 2
+sleep 1
 nm-applet --indicator &
 blueman-applet &
